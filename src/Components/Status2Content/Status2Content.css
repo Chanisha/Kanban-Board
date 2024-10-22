@@ -1,0 +1,233 @@
+.title-content {
+    display: flex;       
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 10px;
+    flex-wrap: nowrap; 
+  }
+  
+  .title-content div {
+    flex: 1; 
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  
+  .title1, .title2, .title3, .title4 {
+    margin-left: 20px; 
+    position: relative; 
+  }
+  
+  .rectangle{
+    width: 220px;
+    height: 130px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .rectangle {
+    margin-top: 5px;
+  }
+  
+  .title1 {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .plus-sign {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(143, 142, 142);
+  }
+  
+  .rectangle h1 {
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .rectangle p{
+    margin-left: 10px;
+  }
+  
+  .box {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(166, 163, 163);
+    padding: 2px;
+    border: 1px solid gray;
+    width: 112px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 4px;
+  } 
+  
+  .rectangle6 {
+    width: 260px;
+    height: 140px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+  
+  }
+  
+  .rectangle6 h1 {
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  
+  .rectangle6 p{
+    margin-left: 10px;
+  }
+  
+  .rectangle, .rectangle6 {
+    position: relative; /* Add relative positioning to all rectangles */
+    width: 260px;
+    min-height: 130px; /* Use min-height to allow dynamic resizing */
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  }
+  
+  .circle {
+    width: 18px; 
+    height: 18px;
+    background-color: #972626; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 12px; 
+  }
+  
+  .rectangle h1 {
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .circle1 {
+    width: 18px; 
+    height: 18px;
+    background-color: #e78c1d; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px; 
+    right: 12px;
+  }
+  
+  .circle2 {
+    width: 18px; 
+    height: 18px;
+    background-color: #c40e1ae5; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+  }
+  
+  .circle3 {
+    width: 18px; 
+    height: 18px;
+    background-color: #1a144a; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px; 
+    right: 12px;
+  }
+  
+  .circle4 {
+    width: 18px; 
+    height: 18px;
+    background-color: #32560d; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+  }
+  
+  .circle5 {
+    width: 18px; 
+    height: 18px;
+    background-color: #d9c71f; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+  }
+  
+  .circle6 {
+    width: 18px; 
+    height: 18px;
+    background-color: #32560d; 
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px; 
+    right: 12px;
+  }
+  
+  
+  
+    
+  
+    
+    

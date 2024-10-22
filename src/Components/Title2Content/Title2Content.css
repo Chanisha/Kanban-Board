@@ -1,0 +1,87 @@
+.title-content {
+  display: flex;       
+  justify-content: space-between; 
+  align-items: flex-start; 
+  padding: 10px;
+  flex-wrap: nowrap; 
+}
+
+.title-content > div {
+  flex: 1; 
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.title1, .title2, .title3, .title4 {
+  margin-left: 20px; 
+  position: relative; 
+}
+
+.rectangle {
+  width: 260px;
+  min-height: 130px;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.plus-sign {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(143, 142, 142);
+}
+
+.rectangle h1 {
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+  padding-top: 10px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.rectangle p {
+  margin-left: 10px;
+}
+
+.box {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(166, 163, 163);
+  padding: 2px;
+  border: 1px solid gray;
+  width: 112px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border-radius: 4px;
+} 
+
+.circle {
+  width: 18px; 
+  height: 18px;
+  background-color: #972626; 
+  color: white;
+  font-size: 10px; 
+  font-weight: bold;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 12px; 
+}
+
+
+.circle1 { background-color: #e78c1d; }
+.circle2 { background-color: #c40e1ae5; }
+.circle3 { background-color: #1a144a; }
+.circle4 { background-color: #32560d; }
+.circle5 { background-color: #d9c71f; }
+.circle6 { background-color: #32560d; }

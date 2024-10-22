@@ -1,0 +1,145 @@
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  .rectangle {
+    width: 300px;  
+    height: 100px; 
+    background-color:white;  
+    margin-top: 10px; 
+    border-radius: 10px;
+  }
+
+
+.rectangle h1 {
+    font-size: 17px; 
+    color: #888483;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 1px;
+  }
+  
+  .rectangle h2 {
+    font-size: 17px; 
+    color:#888483;  
+    font-weight: normal;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  
+  .grouping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.grouping h1 {
+    font-size: 17px;
+    color: #888483;
+    font-weight: normal;
+    margin: 0;
+}
+
+.grouping .grouping-dropbtn {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ordering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    
+}
+
+.ordering h2 {
+    font-size: 17px;
+    color: #888483;
+    font-weight: normal;
+    margin: 0;
+}
+
+.ordering .ordering-dropbtn {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px 17px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.status-options {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  padding: 7px;
+  z-index: 2;
+  width: 100px; 
+  }
+  
+  .status-options p {
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .status-options p:hover {
+    background-color:rgba(0, 123, 255, 0.962);
+    color: white;
+  }
+  
+  .status-content {
+    margin-top: 20px;
+  }
+  
+  .title-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 7px;
+    z-index: 2;
+    width: 100px;
+  }
+  
+  .title-options p {
+    margin: 5px 0;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .title-options p:hover {
+    background-color:rgba(0, 123, 255, 0.962);
+    color: white;
+  }
+  
+  .title-content {
+    margin-top: 20px;
+  }
